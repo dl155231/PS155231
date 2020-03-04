@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
+	//algorytm Euklidesa
 	int n,m;
 	scanf("%i %i", &n, &m);
 	int pom;
