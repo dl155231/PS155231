@@ -20,6 +20,6 @@ int main() {
 		}
 	}
 	else {
-		printf("1 rozw: x=%f, y=%f", wx / w, wy / w);
+		printf("1 rozwiazanie: x1=%f, x2=%f", wx / w, wy / w);
 	}
   }
