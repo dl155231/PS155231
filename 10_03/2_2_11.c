@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h>
 
 
 //nie wiem jak rozdzielić algorytm wyliczania sumy na dwie funkcje, więc jest w jednej
