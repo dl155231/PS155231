@@ -1,5 +1,6 @@
-#include <cstdio>
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h>
+
 int najwDziel(int n) {
 	int k = 0;
 	for (int i = 1; i < n; i++) {
