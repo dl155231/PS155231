@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h>
 
 static int licznik = 0;
 void wywolania() {
@@ -10,7 +10,6 @@ void wywolania() {
 int main() {
 	int n = 1;
 	while (n == 1) {
-		
 		wywolania();
 		scanf("%i", &n);
 	}
