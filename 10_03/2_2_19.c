@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib>
+#include <stdio.h>
+#include <stdlib.h>
 
 static int wynik = 0;
 int foo() {
