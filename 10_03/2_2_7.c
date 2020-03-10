@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h> 
 
 int NdoM(int n, int m) {
 	int wynik = 1;
