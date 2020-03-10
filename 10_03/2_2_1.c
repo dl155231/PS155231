@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h>
 int wartBez(int n) {
 	if (n < 0) {
 		return -n;
