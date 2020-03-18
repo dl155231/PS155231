@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void* rezerwuj(int n) {
+void* rezerwuj(unsigned int n) {
 	return malloc(sizeof(int) * n);
 }
 int main() {
