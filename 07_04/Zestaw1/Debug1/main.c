@@ -5,13 +5,13 @@ int main()
 {
     int tab[] = {1, -1, 5, 5, 5, 8, 7};
     int *wsk=tab;
-    int b = *(wsk+=4); //b=
-    int c = b+2; // b=  , c=
-    int d = (b/=-6) ^ (c-=-17); // b=  , c=  , d=
-    int e = (wsk+=-1)[2]; // b=  , c=  , d=  , e=
-    e = (d *= 8) + (c /= 3); // b=  , c=  , d=  , e=
-    c = d - (b+=8); // b=  , c=  , d=  , e=
-    b = *wsk + e; // b=  , c=  , d=  , e=
-    d = b * c / e; // b=  , c=  , d=  , e=
+    int b = *(wsk+=4); //b=5
+    int c = b+2; // b=5  , c=7
+    int d = (b/=-6) ^ (c-=-17); // b=0  , c=24  , d=24
+    int e = (wsk+=-1)[2]; // b=0  , c=24  , d=24  , e=8
+    e = (d *= 8) + (c /= 3); // b=0  , c=8  , d=192  , e=200
+    c = d - (b+=8); // b=8  , c=184  , d=192  , e=200
+    b = *wsk + e; // b= 205 , c=184  , d=192  , e=200
+    d = b * c / e; // b=205  , c=184  , d=188  , e=200
     return 0;
 }
