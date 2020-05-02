@@ -1,0 +1,60 @@
+---
+title: "Zestaw 1"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+
+1. W folderze Debug1 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 8 pkt.*
+
+2. Napisz funkcję, która jako argument otrzymuje dodatnią liczbę całkowitą $n$ i zwraca liczbę $3^{-n}$. Nie korzystaj z żadnych gotowych funkcji bibliotecznych ani wbudowanych. 
+
+Podpowiedź: $3^{-n}=\frac{1}{3^n}$. 
+
+*Punktacja: 7 pkt.*
+
+3. Napisz funkcję `maks3`. Parametrem funkcji mają być dwa wskaźniki do zmiennej typu `int`. Zadaniem funkcji zamiana wartości mniejszej z liczb wskazywanych
+przez argumenty na większą z liczb wskazywanych przez argumenty. Stwórz w programie dwa przypadki testowe.
+
+*Punktacja: 7 pkt.*
+
+4. Napisz funkcję porównującą dwie tablice jednowymiarowe o takich samych rozmiarach. Funkcja powinna zwrócić wartość "1" jeśli wartość największa obu tablic jest na tym samym numerze indeksu (tym samym miejscu w tablicy) lub "0" w przeciwnym wypadku.
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję rekurencyjną, która dla otrzymanej w argumentach
+pary nieujemnych liczb całkowitych $n$ i $m$ zwraca wartość $f(n,m)$
+gdzie funkcja $f$ jest zdefiniowana w następujący sposób:
+
+$$f(n,0)=1,$$
+$$f(0,m)=1,$$
+$$f(n,m)=f(n-1,m)- f(n,m-1)+5$$
+
+Przypadki testowe dla funkcji:
+
+| $n$ | $m$ | $f(n,m)$ |
+|---|---|---|
+| 0 | 1 | 1 |
+| 2 | 0 | 1 |
+| 3 | 3 | 29 |
+
+*Punktacja: 7 pkt.*
+
+6. Stwórz program, w którym wykonasz poniższe czynności:
+* stwórz tablicę jednowymiarową 7-elementową typu `int` i uzupełnij ją dowolnym wartościami,
+* za pomocą pętli sprawdź ile liczb w tej tablicy jest jednocześnie podzielnych przez 5 i przez 3, wynik wyświetl na konsoli (uwaga: uwzględnij liczby dodatnie, ujemne i zero, zero dzieli się przez każdą liczbę).
+
+*Punktacja: 7 pkt.*
+
+
+7. W folderze Popraw1 znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując co najwyżej 2 linijki tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu. Do zmodyfikowanych linii zaliczają się zarówno linie istostne ze względu na kompilację jak i te nieistotne (np. dodanie spacji przed operatorem może być operacją nieistotną ze względu na kompilację, ale będzie liczone jako zmodyfikowana linijka).
+
+
+*Punktacja: 6 pkt.*
+
+**Po zakończonej pracy wszystkie pliki z kodem (własne i poprawione) umieść w jednym folderze na puplicie komputera. Spakuj folder i zmień nazwę archiwum pokrywającą się z Twoim numerem indeksu/albumu/legitymacji. Sprawdzeniu podlegać będzie tylko i wyłączenie zawartość archiwum.**
+
