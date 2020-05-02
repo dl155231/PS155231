@@ -1,5 +1,3 @@
-//.2 .7 .11
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -41,8 +39,8 @@ int main()
 {
     int unsigned n = 4;
     int tab1[4] = {2, 5, 1, 2};
-    int tab2[4] = {8, 1, 8, 4};
-    int tab3[4] = {6, 2, 7, 4};
+    int tab2[4] = {7, 1, 7, 6};
+    int tab3[4] = {4, 2, 0, 9};
     wypisz(n, tab1);
     wypisz(n, tab2);
     wypisz(n, tab3);
